@@ -1,0 +1,166 @@
+/* start header home section  */
+
+.header-home {
+    height: 700px;
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+}
+
+/* start navbar home section  */
+
+.nav-home{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-home a{
+    color: rgba(229, 105, 59, 0.819);
+    font-size: 15px;
+}
+.nav-home a:hover{
+    color: black;
+}
+
+/* end navbar home section  */
+
+
+
+
+
+
+
+
+.content-home {
+    background-color: rgba(76, 163, 76, 0.548);
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    padding: 18px;
+    margin-top: 80px;
+    font-size: 40px;
+    font-family: serif;
+    border-radius: 20px;
+    line-height: 1.6;
+}
+
+
+/* end header home section  */
+
+
+ 
+.text-school{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* start services home section  */
+
+.services-home {
+    height: 600px;
+    background: url(../img/touch2.png),url(../img/touch\ 1.png);
+    background-size: cover;
+}
+
+@media ( max-width:64rem){
+    .services-home{
+        height: fit-content;
+    }
+}
+
+.text-services {
+    font-family: serif;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.content-services {
+    background-color: white;
+    width: 95%;
+    height: 380px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.content-services h2 {
+    font-size: 20px;
+    font-family: serif;
+    color: #57a18b;
+    padding-top: 15px;
+}
+.content-services p{
+    font-family: serif;
+    font-size: 17px;
+    padding-top: 10px;
+}
+/* end services home section  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* start footer home section  */
+
+.footer-home{
+    font-family: serif;
+    height: 400px;
+    background-color: rgba(8, 70, 67, 0.873);
+    background-size: cover;
+    border-radius: 150px 150px 0px 0px;
+    color: bisque;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.footer-home p{
+   font-size: 15px;
+   letter-spacing: 1px;
+   margin-top: 25px;
+}
+.footer-home h2{
+      font-family: serif;
+      font-size: 25px;
+}
+.footer-home h3{
+    color: rgb(227 122 52);
+    font-family: serif;
+    font-size: 25px;
+}
+.footer-home a{
+    padding: 5px;
+    display: block;
+    font-size: 18px;
+    font-family: serif;
+    color: rgb(233, 227, 221);
+}
+
+
+
+
+
+/* end footer home section  */
+
+
+
+
+
+
+
+
+
+
